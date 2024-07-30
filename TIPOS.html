@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIPOS</title>
+<style>
+	@keyframes cambiarColor {
+            	5% { background-color: black; }
+            	16% { background-color: blue; }
+            	33% { background-color: red; }
+            	50% { background-color: yellow; }
+            	66% { background-color: orange; }
+            	83% { background-color: green; }
+            	100% { background-color: #FFFFFF; }
+        }
+	header {
+            	background-color: black;
+            	color: #fff;
+            	padding: 20px;
+            	text-align: center;
+            	display: flex;
+            	justify-content: space-between;
+            	align-items: center;
+            	animation: cambiarColor 12s infinite;
+        }
+	@keyframes shadow{
+		5% { box-shadow: inset 0 0 20px 5px rgba(0, 0, 0, 0.5); }
+            	16% { box-shadow: inset 0 0 20px 5px rgba(0, 0, 255, 0.5); }
+            	33% { box-shadow: inset 0 0 20px 5px rgba(255, 0, 0, 0.5); }
+            	50% { box-shadow: inset 0 0 20px 5px rgba(255, 255, 0, 0.5); }
+            	66% { box-shadow: inset 0 0 20px 5px rgba(255, 111, 0,0.5); }
+            	83% { box-shadow: inset 0 0 20px 5px rgba(37, 255, 0, 0.5); }
+            	100% { box-shadow: inset 0 0 20px 5px rgba(0, 0, 0, 0.5); }	
+	}
+	div.galeria {  
+            	margin: 10px 20px;
+		border: 2px solid black; 
+            	padding: 20px;          
+            	border-radius: 10px;    
+            	animation: shadow 12s infinite; 
+            	float: left;
+            	width: 200px; 
+        }
+        div.galeria img {
+		width: 100%;
+            	height: auto;
+        }
+        div.galeria:hover {
+            	border: 1px solid lightcoral;
+            	transform: rotate(-3deg);
+        }
+        div.pie {
+            	text-align: center;
+            	text-shadow: 2px 2px 5px black;
+            	padding: 10px;
+        }
+	nav {
+            	background-color: #f4f4f4;
+            	padding: 10px;
+            	text-align: center;
+        }
+	nav ul {
+            	list-style-type: none;
+            	margin: 0;
+            	padding: 0;
+        }
+	nav ul li {
+            	display: inline;
+            	margin-right: 20px;
+        }
+	nav ul li a {
+            	color: #333;
+            	text-decoration: none;
+            	padding: 5px 10px;
+            	border-radius: 5px;
+        }
+	nav ul li a:hover {
+            	color: #FF0000;
+            	transform: scale(1.1);
+        }
+        nav ul li a.active {
+            	animation: cambiarColor 12s infinite;
+            	color: white;
+        }
+	main {
+            	flex:1;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content: flex-start;
+		gap:10px;
+		margin:	100px 110px;
+		
+        }
+	footer {
+            	text-align: center;
+            	padding: 20px;
+            	background-color: black;
+            	color: #fff;
+		box-shadow: 0 0 10px red;   
+        }
+	
+	.social-icons{
+            	list-style-type: none;
+            	margin: 0;
+            	padding: 0;
+            	display: flex;
+        }
+        .social-icons li{
+            	margin-right: 10px;
+        }
+        .social-icons li img{
+            	width: 35px; 
+            	height: auto;
+        }
+	
+</style>
+
+<body>
+<header>
+       <img src="C:\Users\Jeche123\Pictures\2.png">
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/PERSONAL.html#INICIO" >INICIO</a></li>
+                <li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/TIPOS.html#TIPOS-DE-CUBOS"class="active">TIPOS</a></li>
+                <li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/HISTORIA.html#HISTORIA">HISTORIA DE LOS CUBOS</a></li>
+                <li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/EVENTOS.html#EVENTOS">EVENTOS</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+<div class="galeria">
+        <div class="foto">
+		<img src="C:\Users\Jeche123\Pictures\cubo\cubo2x2.png"></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>2x2</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <A href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/GUIAS-DE-SOLUCION.HTML"><img src="C:\Users\Jeche123\Pictures\cubo\cubo3x3.png"></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>3x3</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\cubo4x4.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>4x4</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\cubo5x5.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>5x5</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\square.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>Square</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\Skewb.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>Skewb</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\Axis.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>Axis</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\Redi.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>Redi</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\Fisher.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>Fisher</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\dino.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>dino</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\ivy.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>Ivy</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\Gear.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>Gear</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\mastermorphix.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>mastermorphix</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\pyramid.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>pyramid</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\kilominx.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>kilominx</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\Megaminx.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>Megaminx</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+           <img src="C:\Users\Jeche123\Pictures\cubo\gigaminx.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>Gigaminx</p>
+        </div>
+</div>
+
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\teraminix.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>Teraminix</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\Mirror.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>Mirror</p>
+        </div>
+</div>
+<div class="galeria">
+        <div class="foto">
+            <img src="C:\Users\Jeche123\Pictures\cubo\Fisher2.png" alt=""></A>
+        </div>
+        <div class="pie">
+            <p>Cubo rubik</p>
+            <p>Speed Ghost</p>
+        </div>
+</div>
+
+
+</main>
+<footer>
+<div class="derechos">
+	<img src="C:\Users\Jeche123\Pictures\1.png">
+	<p>© 2024 CUBOGENIUS.Todos los derechos reservados.</p>
+         
+</div>	
+    </footer>
+</body>
+</html>

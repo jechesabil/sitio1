@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUBOGENIUS</title>
+    <style>
+        @keyframes cambiarColor {
+            	5% { background-color: black; }
+            	16% { background-color: blue; }
+            	33% { background-color: red; }
+            	50% { background-color: yellow; }
+            	66% { background-color: orange; }
+            	83% { background-color: green; }
+            	100% { background-color: #FFFFFF; }
+        }
+	@keyframes borderColorChange{
+	    	5% { border-color: black; }
+            	16% { border-color: blue; }
+            	33% { border-color: red; }
+            	50% { border-color: yellow; }
+            	66% { border-color: orange; }
+            	83% { border-color: green; }
+            	100% { border-color: #FFFFFF; }	
+        }
+	@keyframes shadow{
+		5% { box-shadow: inset 0 0 20px 5px rgba(0, 0, 0, 0.5); }
+            	16% { box-shadow: inset 0 0 20px 5px rgba(0, 0, 255, 0.5); }
+            	33% { box-shadow: inset 0 0 20px 5px rgba(255, 0, 0, 0.5); }
+            	50% { box-shadow: inset 0 0 20px 5px rgba(255, 255, 0, 0.5); }
+            	66% { box-shadow: inset 0 0 20px 5px rgba(255, 111, 0,0.5); }
+            	83% { box-shadow: inset 0 0 20px 5px rgba(37, 255, 0, 0.5); }
+            	100% { box-shadow: inset 0 0 20px 5px rgba(0, 0, 0, 0.5); }	
+	}
+        header {
+            	background-color: black;
+            	color: #fff;
+            	padding: 20px;
+            	text-align: center;
+            	display: flex;
+            	justify-content: space-between;
+            	align-items: center;
+            	animation: cambiarColor 12s infinite;
+        }
+        body {
+            	font-family: Arial, sans-serif;
+            	background-image: url("file:///C:/Users/Jeche123/Pictures/cubo.png.jpg");
+		background-size:cover;
+            	margin: 0;
+            	padding: 0;
+            	display: flex;
+            	flex-direction: column;
+            	min-height: 100vh;
+        }
+
+        nav {
+            	background-color: #f4f4f4;
+            	padding: 10px;
+            	text-align: center;
+        }
+
+        nav ul {
+            	list-style-type: none;
+            	margin: 0;
+            	padding: 0;
+        }
+
+        nav ul li {
+            	display: inline;
+            	margin-right: 20px;
+        }
+
+        nav ul li a {
+            	color: #333;
+            	text-decoration: none;
+            	padding: 5px 10px;
+            	border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+		color: #FF0000;
+            	transform: scale(1.1);
+        }
+
+        nav ul li a.active {
+              	animation: cambiarColor 12s infinite;
+            	color: white;
+        
+        }
+
+        main {
+            	flex: 1;
+            	text-align: left;
+            	display: flex;
+            	flex-direction: row;
+           	align-items: 0 0 10px #0f0;
+	   	margin-left: 50px;
+	    
+        }
+
+        .text-content {
+            	max-width: 650px;
+		margin: 60px auto;
+		background-color: black;
+		padding: 40px;
+		border: 5px solid red;
+		color: #fff;
+		animation: borderColorChange 12s infinite;
+		height: 500px;
+		border-radius: 30px;
+		justify-content: space-between;	
+        }
+        .image-right {
+	    	padding: 10px;
+            	margin-left: 100px;
+            	max-width: 1000px;
+            	height: 500px;
+        }
+
+        footer {
+            	text-align: center;
+           	padding: 20px;
+            	background-color: black;
+            	color: #fff;
+		animation: shadow 12s infinite;
+	    
+        }
+	
+	.social-icons {
+            	list-style-type: none;
+            	margin: 0;
+            	padding: 0;
+            	display: flex;
+        }
+
+        .social-icons li {
+            	margin-right: 10px;
+        }
+
+        .social-icons li img {
+            	width: 35px; 
+            	height: auto;
+        }
+	.derechos{
+	    	margin-letf:1px;
+		
+	}
+
+    </style>
+</head>
+<body>
+    <header>
+       <img src="C:\Users\Jeche123\Pictures\2.png">
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/PERSONAL.html#INICIO" class="active">INICIO</a></li>
+                <li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/TIPOS.html#TIPOS-DE-CUBOS">TIPOS</a></li>
+                <li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/HISTORIA.html#HISTORIA">HISTORIA DE LOS CUBOS</a></li>
+                <li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/EVENTOS.html#EVENTOS">EVENTOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="text-content">
+            <h1><p>¿Sabías que?</p></h1>
+            <h3>            El premio al mejor juguete se obtuvo en Alemania en el año de 1980 y a la fecha se han vendido más de 300 millones de cubos. El primer torneo mundial se realizó en Múnich en 1981 y ese mismo año fue exhibido en el museo de arte moderno de New York. Tiene algo más de 43 trillones de combinaciones posibles y el actual récord mundial lo tiene el holandés Mats Valk, quien lo resolvió en 5.55 segundos en el año 2013.<br>
+<br>
+
+            Si practicas regularmente el armado del cubo, tu mente se preparará para procesar información de una manera más lógica y rápida, buscando soluciones más eficaces y mejorando tu inteligencia espacial. Además, fortalecerás la psicomotricidad (habilidad manual, intuición del paso a seguir y memoria motriz), la planificación (con las secuencias a seguir conocidas como algoritmos se predice el resultado del proceso), la habilidad matemática (se percibe la realidad apreciando tamaños, direcciones y relaciones espaciales) y el conocimiento espacial (representaciones mentales en 3 dimensiones y reconocimiento de objetos en diferentes circunstancias).
+
+</h3>        
+</div>
+        <img src="C:\Users\Jeche123\Pictures\cubogif-unscreen.gif" class="image-right">
+    </main>
+    
+    <footer>
+	<div class="derechos">
+	
+        
+	</div>
+	<img src="C:\Users\Jeche123\Pictures\1.png">
+	<p>© 2024 CUBOGENIUS.Todos los derechos reservados.</p>
+         <ul class="social-icons">
+            <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174848.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram"></a></li>
+            
+        </ul>
+	
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTOS</title>
+    <style>
+        @keyframes cambiarColor {
+            0% { background-color: black; }
+            16% { background-color: blue; }
+            33% { background-color: red; }
+            50% { background-color: yellow; }
+            66% { background-color: orange; }
+            83% { background-color: green; }
+            100% { background-color: black; }
+        }
+	@keyframes shadow{
+	    5% { box-shadow: inset 0 0 20px 5px rgba(0, 0, 0, 0.5); }
+            16% { box-shadow: inset 0 0 20px 5px rgba(0, 0, 255, 0.5); }
+            33% { box-shadow: inset 0 0 20px 5px rgba(255, 0, 0, 0.5); }
+            50% { box-shadow: inset 0 0 20px 5px rgba(255, 255, 0, 0.5); }
+            66% { box-shadow: inset 0 0 20px 5px rgba(255, 111, 0,0.5); }
+            83% { box-shadow: inset 0 0 20px 5px rgba(37, 255, 0, 0.5); }
+            100% { box-shadow: inset 0 0 20px 5px rgba(0, 0, 0, 0.5); }	
+	}
+
+        header {
+            background-color: black;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            animation: cambiarColor 12s infinite;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-size:cover;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            color: #FF0000;
+            transform: scale(1.1);
+        }
+
+        nav ul li a.active {
+             animation: cambiarColor 12s infinite;
+            color: white;
+        }
+
+        main {
+            flex: 1;
+            text-align: left;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+	    margin-left: 50px;
+        }
+
+        .text-content {
+            max-width: 650px;
+		margin: 60px auto;
+		background-color: white;
+		padding: 40px;
+		border: 5px solid grey
+		color: #fff;
+		box-shadow: 5px 5px 25px #222;;
+		height: 1000px;
+		border-radius: 30px;
+		justify-content: space-between;
+        }
+
+        
+        
+
+        footer {
+            	text-align: center;
+            	padding: 20px;
+            	background-color: black;
+            	color: #fff;
+		box-shadow: 0 0 10px red;   
+        }
+	.social-icons{
+            	list-style-type: none;
+            	margin: 0;
+            	padding: 0;
+            	display: flex;
+        }
+        .social-icons li{
+            	margin-right: 10px;
+        }
+        .social-icons li img{
+            	width: 35px; 
+            	height: auto;
+        }
+	
+
+    </style>
+</head>
+<body BACKGROUND="C:\Users\Jeche123\Pictures\3x3\competencia.jpg">
+    <header>
+       <img src="C:\Users\Jeche123\Pictures\1.png">
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/PERSONAL.html#INICIO">INICIO</a></li>
+                <li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/TIPOS.html#TIPOS-DE-CUBOS">TIPOS</a></li>
+                <li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/HISTORIA.html#HISTORIA">HISTORIA DE LOS CUBOS</a></li>
+                <li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/EVENTOS.html#EVENTOS" class="active">EVENTOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="text-content">
+
+            <center><p><h1>EVENTOS</p>
+</h1> </center> 
+<h3>
+<P>El Cubo de Rubik se hace con las dos manos y poniendo especial atención para poder completar cada una de sus caras con un color homogéneo. Esto que parece una máxima irrefutable no lo es tal. ¿Por qué? Pues porque hay muy diversos tipos de modalidades cuando se habla de torneos y récords. Si no te lo crees, solo tienes que seguir leyendo.</P>
+<P>¿Solo hay un modo de torneo?</P>
+<P>Como ya os hemos comentado, la respuesta a esta pregunta es un rotundo no. Las modalidades para competir son muy variadas. De hecho, incluso existe un torneo que corona al más rápido haciendo el Cubo de Rubik ¡con los pies!</P>
+<P>No creas que solo es hacerlo con dos manos... Hay mucho más</P>
+
+
+<P>No obstante, existen tres modalidades de juego que destacan especialmente por su espectacularidad. Os describimos en qué consiste cada una:</P>
+<P>Velocidad 3x3x3: es la modalidad más común del Cubo de Rubik. Simplemente se trata de resolver el rompecabezas, haciendo uso de las dos manos, a la mayor velocidad posible. Se juega con 5 cubos diferentes mezclados. Por supuesto, es la misma mezcla para ambos competidores y se les otorga un breve espacio de tiempo para la inspección previa.</P>
+<P>Mano más rápida (Una mano) 3x3x3: esta modalidad es igual a la anterior, con la única diferencia de que los participantes tendrán que resolver el Cubo de Rubik con solo una mano. Se juega con 3 cubos diferentes mezclados, con la misma mezcla para ambos competidores, pero en este caso no hay tiempo para la inspección.</P>
+<P>Remezclar 3x3x3. Y para rizar el rizo existe esta alucinante modalidad, en la cual se lleva un proceso inverso a lo más habitual. En ella, los competidores comienzan con un Cubo de Rubik ya resuelto y otro mezclado (del mismo modo para ambos jugadores, obviamente). En este caso ganará la ronda aquel que sea capaz de desordenar su cubo el mismo modo que en el ejemplo. ¿Complicado, verdad?</P>
+<P>Así te dan el Cubo de Rubik y debes desordenarlo del modo correcto</P>
+ </h3>     
+</div>
+        
+    </main>
+    
+    <footer>
+<div class="derechos">
+	<img src="C:\Users\Jeche123\Pictures\1.png">
+	<p>© 2024 CUBOGENIUS.Todos los derechos reservados.</p>
+         
+</div>	
+    </footer>
+</body>
+</html>

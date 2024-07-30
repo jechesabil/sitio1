@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUIAS DE SOLUCION</title>
+    <style>
+        @keyframes cambiarColor {
+           	 0% { background-color: black; }
+           	 16% { background-color: blue; }
+            	33% { background-color: red; }
+            	50% { background-color: yellow; }
+            	66% { background-color: orange; }
+            	83% { background-color: green; }
+            	100% { background-color: black; }
+        }
+	@keyframes shadow{
+		5% { box-shadow: inset 0 0 20px 5px rgba(0, 0, 0, 0.5); }
+            	16% { box-shadow: inset 0 0 20px 5px rgba(0, 0, 255, 0.5); }
+            	33% { box-shadow: inset 0 0 20px 5px rgba(255, 0, 0, 0.5); }
+            	50% { box-shadow: inset 0 0 20px 5px rgba(255, 255, 0, 0.5); }
+            	66% { box-shadow: inset 0 0 20px 5px rgba(255, 111, 0,0.5); }
+            	83% { box-shadow: inset 0 0 20px 5px rgba(37, 255, 0, 0.5); }
+            	100% { box-shadow: inset 0 0 20px 5px rgba(0, 0, 0, 0.5); }	
+	}
+
+        header {
+            	background-color: black;
+            	color: #fff;
+            	padding: 20px;
+            	text-align: center;
+            	display: flex;
+            	justify-content: space-between;
+            	align-items: center;
+            	animation: cambiarColor 12s infinite;
+        }
+
+        body {
+            	font-family: Arial, sans-serif;
+            	BACKGROUND-color: #DCDADA:
+            	margin: 0;
+            	padding: 0;
+            	display: flex;
+            	flex-direction: column;
+            	min-height: 100vh;
+        }
+
+        nav {
+            	background-color: #f4f4f4;
+            	padding: 10px;
+            	text-align: center;
+        }
+
+        nav ul {
+            	list-style-type: none;
+            	margin: 0;
+            	padding: 0;
+        }
+
+        nav ul li {
+            	display: inline;
+            	margin-right: 20px;
+        }
+
+        nav ul li a {
+            	color: #333;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            color: #FF0000;
+            transform: scale(1.1);
+        }
+
+        nav ul li a.active {
+             animation: cambiarColor 12s infinite;
+            color: white;
+        }
+
+        main {
+            flex: 1;
+            text-align: left;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+	    margin-left: 50px;
+        }
+	
+	.image img {
+            width: 150px;
+            height: auto;
+        }
+
+        .text-content {
+            flex: 1
+		justify-content: space-between;
+        }
+	
+
+        
+	.imge{
+		padding: 20px;
+		margin-left:10px
+		max-width:80;
+		heigh:200;
+	}
+	.borde-c{
+		
+    		background: rgb(255, 255, 255);
+            	color: rgb(0, 0, 0);
+            	box-sizing: border-box;
+            	padding: 30px;
+            	border-radius: 20px;
+            	box-shadow: 5px 5px 25px #222;
+            	margin: 20px;
+            	text-align: left;
+            	display: inline-block;
+            	max-width: 93%;
+            	min-width: 1000px;
+	}
+	.marco{
+    		background: rgb(255, 255, 255);
+    		color: rgb(0, 0, 0);
+    		box-sizing: border-box;
+    		padding: 30px;
+    		border-radius: 20px;
+    		box-shadow: 5px 5px 25px #222;
+    		margin: 20px 20px 20px 20px;
+    		text-align: left;
+    		display: inline-block;
+    		max-width: 35%;
+    		min-width: 1250px;
+	}
+	.marco img {
+    		width: 80px;
+    		margin: 8px 17px;
+    		float: left;
+	}
+	footer {
+            	text-align: center;
+            	padding: 20px;
+            	background-color: black;
+            	color: #fff;
+		box-shadow: 0 0 10px red;   
+        }
+	.social-icons{
+            	list-style-type: none;
+            	margin: 0;
+            	padding: 0;
+            	display: flex;
+        }
+        .social-icons li{
+            	margin-right: 10px;
+        }
+        .social-icons li img{
+            	width: 35px; 
+            	height: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+       <img src="C:\Users\Jeche123\Pictures\1.png">
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/PERSONAL.html#INICIO">INICIO</a></li>
+                <li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/TIPOS.html#TIPOS-DE-CUBOS">TIPOS</a></li>
+		<li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/GUIAS-DE-SOLUCION.HTML#GUIAS-DE-SOLUCION" class="active">GUIAS DE SOLUCION</a></li>
+                <li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/HISTORIA.html#HISTORIA">HISTORIA DE LOS CUBOS</a></li>
+                <li><a href="file:///C:/Users/Jeche123/Desktop/INDEX%20PERSONAL/EVENTOS.html#EVENTOS">EVENTOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="borde-c">
+            
+            <center><p><h1>GUIAS DE SOLUCION</p>
+	</h1> </center>
+
+<p><h1>GUÍA DE RESOLUCIÓN DEL CUBO 3x3</h1></p>
+<p><left>El objetivo de esta guía es que aprendas a resolver el cubo de Rubik de la manera más fácil posible. 
+No es muy complicado de aprender, pero requiere concentración, memoria y visión espacial.
+<br>
+<br>
+Antes de empezar la resolución da un vistazo al apartado Notación 3x3, encontrarás los conceptos básicos a saber para empezar la resolución.
+<div class="image">
+<img src="C:\Users\Jeche123\Pictures\3x3\mesclat.webp"></img>
+<div class="marco ">
+            <h2>PRIMERA CAPA</h2>
+            <p>En esta primera capa hay dos pasos, primero colocar las aristas para realizar la cruz y posteriormente las esquinas para completar la primera capa entera.</p>
+            <h3>PRIMER PASO: LA CRUZ</h3>
+            <div class="objectiu">
+                <h4>OBJECTIVO</h4>
+                <img alt="Cubo 3x3x3 objetivo cruz" src="C:\Users\Jeche123\Pictures\3x3\capa_1_creu_gris.webp">
+            </div>
+            <br><br>
+            <p>En esta primer paso realizaremos la cruz, fíjate bien, no basta con la cruz blanca, el color lateral de las aristas tienen que coincidir con el color de la pieza central de las caras laterales. En la imagen puedes ver que la arista blanca i roja coincide con el centro blanca y también con el centro rojo, lo mismo pasa con la arista blanca y azul.</p>
+            <p>Para realizar la cruz el mejor método es la lógica. De todas maneras te daré unas indicaciones para guiarte un poco.</p>
+            <ol>
+                <li>
+                    <p>Primero orientaremos el cubo de manera que el centro blanco mire hacia arriba. Hasta que terminemos las dos primeras capas el centro blanco lo dejaremos mirando hacia arriba.</p>
+                </li><li>
+                    <p>Ahora buscamos una arista que contenga el color blanco.</p>
+                </li><li>
+                    <p>Una vez localizada, buscamos su lugar correcto.</p>
+                </li><li>
+                    <p>Para terminar, sin perder la orientación del cubo i usando la lógica, colocamos la arista en su lugar moviendo las diferentes capas del cubo.</p>
+            </li></ol>
+            <p>Vigila si ya tenemos alguna arista colocada, puede que sea necesario apartarla un momento, si se da el caso, tenemos que devolverla a su sitio.</p>
+            <h3>SEGUNDO PASO: ESQUINAS</h3>
+            <div class="objectiu">
+                <h4>OBJECTIVO</h4>
+                <img alt="Cubo 3x3x3 objetivo primera capa" src="C:\Users\Jeche123\Pictures\3x3\capa_1_completa_gris.webp">
+            </div>
+            <br><br>
+            <p>En este segundo paso completaremos la primera capa, para realizarlo tendremos que colocar las esquinas de la primera capa en su lugar.</p>
+            <p>Como en el paso anterior primero buscamos la pieza que queramos colocar, buscar su lugar y finalmente colocar la pieza. En este caso lo haremos con las esquinas.</p> <p>Moviendo la capa inferior del cubo tenemos que conseguir poner la esquina debajo de su lugar correspondiente, y orientar el cubo de manera que el blanco de la esquina esté en la cara frontal y el centro blanco en la cara superior. Si no es posible, es porque la esquina está en la capa superior o que el blanco está mirando hacia abajo. Estas situaciones corresponden al caso 1 i al caso 4.</p>
+            <p>Nos encontraremos con 4 situaciones distintas para colocar la esquina en su lugar.</p>
+            <h4>Caso 1</h4>
+            <img alt="Cubo 3x3x3 capa 1 caso 1.1" style="float:left;" src="C:\Users\Jeche123\Pictures\3x3\capa_1_cas_1_1.webp">
+            <img alt="Cubo 3x3x3 capa 1 caso 1.2" style="float:left;" src="C:\Users\Jeche123\Pictures\3x3\capa_1_cas_1_2.webp">
+            <img alt="Cubo 3x3x3 capa 1 caso 1.3" style="float:left;" src="C:\Users\Jeche123\Pictures\3x3\capa_1_cas_1_3.webp">
+            <p>La esquina a colocar, se encuentra en la capa superior del cubo.</p>
+            <p>Para resolver esta situación, primero quitaremos la esquina de la capa superior para que quede en la capa inferior.</p>
+            <p>Orientamos el cubo de manera que el centro blanco mira hacia arriba y la esquina que queremos quitar de la capa superior quede en la parte superior derecha de la cara frontal, tal como vemos en la imagen. Posteriormente realizamos el algoritmo siguiente:</p>
+            <div class="serie">
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R'.webp">
+                    <p class="lletra_codi">R'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D'.webp">
+                    <p class="lletra_codi">D'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R.webp">
+                    <p class="lletra_codi">R</p>
+                </div>
+            </div>
+            <p>Ahora ya podemos mover la capa inferior hasta que la esquina quede debajo de lugar que le corresponde.</p>
+            <h4>Caso 2</h4>
+            <img alt="Cubo 3x3x3 capa 1 caso 2" style="float:left;" src="C:\Users\Jeche123\Pictures\3x3\capa_1_cas_2.webp">
+            <p>En este caso, la esquina a colocar queda en la parte inferior derecha de la cara frontal. Para resolver esta situación realizamos el algoritmos siguiente.</p>
+            <p>Te aconsejo que intentes ver la lógica al algoritmo, de esta manera te será mas fácil de recordar y entender como se resuelve el cubo.</p>            <p>Fijate que lo que conseguimos con el algoritmo es, apartar la esquina a colocar, bajar la capa derecha, colocar la esquina i finalmente devolver a su sitio la capa derecha.</p>
+            <div class="serie">
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D'.webp">
+                    <p class="lletra_codi">D'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R'.webp">
+                    <p class="lletra_codi">R'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D.webp">
+                    <p class="lletra_codi">D</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R.webp">
+                    <p class="lletra_codi">R</p>
+                </div>
+            </div>
+            <h4>Caso 3</h4>
+            <img alt="Cubo 3x3x3 capa 1 caso 3" style="float:right;" src="C:\Users\Jeche123\Pictures\3x3\capa_1_cas_3.webp">
+            <p>En esta caso, la esquina a colocar queda en la parte inferior izquierda de la cara frontal. Para resolver esta situación realizamos el siguiente algoritmo.</p>
+            <p>Este caso es como el caso 2 pero al revés.</p>
+            <div class="serie">
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D.webp">
+                    <p class="lletra_codi">D</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\L.webp">
+                    <p class="lletra_codi">L</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D'.webp">
+                    <p class="lletra_codi">D'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\L'.webp">
+                    <p class="lletra_codi">L'</p>
+                </div>
+            </div>
+            <h4>Caso 4</h4>
+            <img src="C:\Users\Jeche123\Pictures\3x3\capa_1_cas_4.webp">
+            <p>Este último caso se da cuando el blanco de la esquina a colocar mira hacia abajo. Tenemos que orientar el cubo de manera que la esquina a colocar quede en la parte inferior derecha de la cara frontal y realizar el algoritmo siguiente:</p>
+            <br><br><br>
+            <div class="serie">
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R'.webp">
+                    <p class="lletra_codi">R'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D' (2).webp">
+                    <p class="lletra_codi">D</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D' (2).webp">
+                    <p class="lletra_codi">D</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R.webp">
+                    <p class="lletra_codi">R</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D.webp">
+                    <p class="lletra_codi">D</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R'.webp">
+                    <p class="lletra_codi">R'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D'.webp">
+                    <p class="lletra_codi">D'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R.webp">
+                    <p class="lletra_codi">R</p>
+                </div>
+            </div>
+            <p>Usando los 4 casos anteriores, conseguiremos resolver la primera capa del cubo.</p>
+        </div>
+</div>
+</left></p>
+<div class="marco ">
+            <h2>SEGUNDA CAPA</h2>
+            <p>En esta segunda capa solo hay un paso, consiste en colocar las aristas de la segunda capa</p>
+            <h3>PRIMER PASO: ARISTAS</h3>
+            <div class="objectiu">
+                <h4>OBJECTIVO</h4>
+                <img src="C:\Users\Jeche123\Pictures\3x3\capa_2_completa_gris.webp">
+            </div>
+            <br><br>
+            <p>El procedimiento a seguir para colocar las aristas es el siguiente:</p>
+            <ol>
+                <li style="margin-left:100px;">
+                    <p>Buscamos en la capa inferior una arista que no tenga color amarillo, las aristas que tengan color amarillo corresponden a la ñultima capa y ahira no nos interesan.</p>
+                </li><li style="margin-left:100px;">
+                    <p>Moviendo la capa inferior hacemos coincidir el color lateral de la arista con el centro del mismo color, nos quedará una forma de T.</p>
+                </li><li>
+                    <p>Ahora, nos fijamos si esta arista va colocada a su derecha o a su izquierda, dependiendo de donde vaia usaremos un algoritmo o otro.</p>
+            </li></ol>
+            <h4>Caso 1</h4>
+            <img alt="Cubo 3x3x3 segunda capa arista a la derecha" style="float:left;" src="C:\Users\Jeche123\Pictures\3x3\T_dreta.webp">
+            <p>La arista va a su derecha.</p>
+            <p>Mirando la T de cara realizamos el siguiente algoritmo:</p>
+            <br><br>
+            <div class="serie">
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D' (2).webp">
+                    <p class="lletra_codi">D'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R'.webp">
+                    <p class="lletra_codi">R'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D.webp">
+                    <p class="lletra_codi">D</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R.webp">
+                    <p class="lletra_codi">R</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D.webp">
+                    <p class="lletra_codi">D</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\F.webp">
+                    <p class="lletra_codi">F</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D'.webp">
+                    <p class="lletra_codi">D'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\F'.webp">
+                    <p class="lletra_codi">F'</p>
+                </div>
+            </div>
+            <h4>Caso 2</h4>
+            <img alt="Cubo 3x3x3 segunda capa arista a la izquierda" style="float:left;" src="C:\Users\Jeche123\Pictures\3x3\T_esquerra.webp">
+            <p>La arista va a su izquierda.</p>
+            <p>Mirando la T de cara realizamos el siguiente algoritmo:</p>
+            <br><br>
+            <div class="serie">
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D.webp">
+                    <p class="lletra_codi">D</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\L.webp">
+                    <p class="lletra_codi">L</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D'.webp">
+                    <p class="lletra_codi">D'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\L'.webp">
+                    <p class="lletra_codi">L'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D'.webp">
+                    <p class="lletra_codi">D'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\F'.webp">
+                    <p class="lletra_codi">F'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D.webp">
+                    <p class="lletra_codi">D</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\F.webp">
+                    <p class="lletra_codi">F</p>
+                </div>
+            </div>
+            <h4>Caso 3</h4>
+            <p>Nos podemos encontrar que en la capa inferior no haya ninguna arista que no tenga color amarillo y que la segunda capa no esté resuelta. Esto pasa cuando todas las aristas sin color amarillo están colocadas en la segunda capa pero no de manera correcta.</p>
+            <p>Para solucionarlo simplemente colocamos cualquier arista que tenga color amarillo en el lugar de una de las aristas que queremos colocar correctamente. Una vez realizado, la arista sin color amarillo quedará en la capa inferior del cubo para poder continuar.</p>
+	    <p>Una vez todas las aristas estén colocadas tendremos la segunda capa completada.</p>  
+</div>
+
+<div class="marco">
+            <h2>TERCERA CAPA</h2>
+            <p>Solo nos queda la última capa, para poder completarla tendremos que seguir los siguientes 4 pasos.</p>
+            <h3>PRIMER PASO: ORIENTACIÓN DE LAS ARISTAS, CRUZ 2</h3>
+            <div class="objectiu">
+                <h4>OBJECTIVO</h4>
+                <img src="C:\Users\Jeche123\Pictures\3x3\capa_3_creu_gris.webp">
+                <img src="C:\Users\Jeche123\Pictures\3x3\creu_groga (1).webp">
+            </div>
+            <br><br>
+            <p>El objetivo de este paso es conseguir realizar la cruz amarilla, esta vez sin tener en cuenta si el color lateral de la arista coincide con el centro lateral.</p>
+            <p>Primero giramos el cubo de manera que el centro amarillo mire hacia arriba, a partir de ahora miraremos el cubo con esta orientación hasta terminarlo.</p>
+            <p>El cubo puede quedarnos en cualquiera de las 4 fases que se muestran en las imágenes, si tenemos suerte la cruz amarilla quedará resuelta y podremos pasar al siguiente paso.</p>
+            <p>El algoritmo nos permitirá avanzar fases hasta resolver la cruz.</p>
+            <div class="serie" style="text-align:center;">
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\creu_groga_punt.webp">
+                    <p class="lletra_codi">1</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\creu_groga_linia.webp">
+                    <p class="lletra_codi">2</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\creu_groga_L.webp">
+                    <p class="lletra_codi">3</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\creu_groga.webp">
+                    <p class="lletra_codi">4</p>
+                </div>
+            </div>
+            <p>Las imágenes muestran la orientación correcta para realizar el algoritmo, con la cara amarilla como cara superior, cada vez que realicemos el algoritmo avanzaremos a la fase siguiente.</p>
+            <p>Por ejemplo, si nos queda el punto, realizaremos el algoritmo i pasaremos a tener la línea, volveremos a realizar el algoritmo y pasaremos a la L, por último volveremos a realizar el algoritmo y ya tendremos la cruz resuelta.</p>
+            <p>El algoritmo es el siguiente:</p>
+            <div class="serie">
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\F (1).webp">
+                    <p class="lletra_codi">F</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\U.webp">
+                    <p class="lletra_codi">U</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R.webp">
+                    <p class="lletra_codi">R</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\U'.webp">
+                    <p class="lletra_codi">U'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R'.webp">
+                    <p class="lletra_codi">R'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\F'.webp">
+                    <p class="lletra_codi">F'</p>
+                </div>
+            </div>
+            <h3>SEGUNDO PASO: PERMUTACIÓN DE LAS ARISTAS</h3>
+            <div class="objectiu">
+                <h4>OBJECTIVO</h4>
+                <img alt="Cubo 3x3x3 objetivo aristas permutadas" src="C:\Users\Jeche123\Pictures\3x3\capa_3_creu_groga_completa.webp">
+            </div>
+            <br><br>
+            <p>En este paso cambiaremos la posición de las aristas de la tercera capa para que queden en su lugar.</p>
+            <img alt="Cubo 3x3x3 aristas tercera capa colocadas" style="float:right;" src="C:\Users\Jeche123\Pictures\3x3\permutacio_arestes.webp">
+            <p>El algoritmo de este paso intercambia la posición de 3 de las aristas rotándolas en sentido antihorario. La arista que miraremos de cara es la única que no rotará.</p>
+            <br>
+            <img alt="Cubo 3x3x3 aristas tercera capa mal colocadas" src="C:\Users\Jeche123\Pictures\3x3\capa_3_arestes_mal_colocades.webp">
+            <p>Moviendo la capa superior tenemos que conseguir que solo una de las aristas de la capa superior quede bien colocada, esto no siempre es posible, si no lo conseguimos porque ninguna o dos de las aristas quedan bien colocadas, realizamos el algoritmo usando como cara frontal cualquiera de las caras laterales. Una vez realizado ya podremos conseguir que solo una de las aristas este en su lugar moviendo la capa superior.</p>
+            <p>Otro caso que podemos encontrarnos, es que, moviendo la capa superior, conseguimos colocar todas las aristas en su lugar, si se da este caso podemos pasar al siguiente paso.</p>
+  	    <p>Puede que tengamos que realizar el algoritmo un par de veces para que las piezas roten hasta su posición correcta.</p>
+            <p>El algoritmo es el siguiente:</p>
+            <div class="serie">
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R.webp">
+                    <p class="lletra_codi">R</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\U.webp">
+                    <p class="lletra_codi">U</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R'.webp">
+                    <p class="lletra_codi">R'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\U.webp">
+                    <p class="lletra_codi">U</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R.webp">
+                    <p class="lletra_codi">R</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\U.webp">
+                    <p class="lletra_codi">U</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\U.webp">
+                    <p class="lletra_codi">U</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R'.webp">
+                    <p class="lletra_codi">R'</p>
+                </div>
+            </div>
+            <h3>TERCER PASO: PERMUTACIÓN DE LAS ESQUINAS</h3>
+            <div class="objectiu">
+                <h4>OBJECTIVO</h4>
+                <img alt="Cubo 3x3x3 esquinas tercera capa en su lugar" src="C:\Users\Jeche123\Pictures\3x3\capa_3_cantonades_al_seu_lloc.webp">
+            </div>
+            <br><br><br>
+            <p>En este paso tenemos que conseguir colocar las esquinas en su lugar correcto, vigila, no hace falta que estén bien orientadas, simplemente tienen que estar en el lugar que les corresponde.</p>
+            <p>En la imagen de el objetivo podemos ver un ejemplo, todas las esquinas están en su lugar, pero no todas están bien orientadas. Por ejemplo, la esquina amarilla, roja y azul, está en su lugar pero no está bien orientada, faltaría rotarla en sentido horario para que esté bien orientada.</p>
+            <img alt="Cubo 3x3x3 rotación de esquinas" src="C:\Users\Jeche123\Pictures\3x3\rotacio_cantonades.webp">
+            <p>Para conseguirlo usaremos un algoritmo que intercambia la posición de 3 esquinas en sentido antihorario.</p>
+            <p>Nos podemos encontrar tres casos distintos:</p>
+            <br><br>
+            <h4>Caso 1</h4>
+            <p>Todas las esquinas están en su lugar correcto, hemos tenido suerte podemos pasar al paso siguiente.</p>
+            <h4>Caso 2</h4>
+            <p>Ninguna de las esquinas está en su lugar.</p>
+            <p>En este caso realizamos el algoritmo usando como cara frontal cualquiera de las caras laterales del cubo y podrás pasar al caso 3.</p>
+            <h4>CASO 3</h4>
+            <img alt="Cubo 3x3x3 esquina ubicada" src="C:\Users\Jeche123\Pictures\3x3\capa_3_1_cantonada_ubicada.webp">
+            <p>Una de las esquinas está en su lugar correcto.</p>
+            <p>En esta situación orientamos el cubo de manera que, como en los últimos pasos, el centro amarillo mira hacia arriba y la esquina quede en la parte superior derecha de al cara frontal. Una vez tengamos el cubo bien orientado ya podremos realizar el algoritmo, puede ser que tengamos que hacer el algoritmo dos veces para rotar las esquinas hasta su lugar correcto.</p>
+            <p>En la imagen puedes ver un ejemplo.</p>
+            <p>El algoritmo que usaremos es el siguiente:</p>
+            <div class="serie">
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\U.webp">
+                    <p class="lletra_codi">U</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R.webp">
+                    <p class="lletra_codi">R</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\U'.webp">
+                    <p class="lletra_codi">U'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\L'.webp">
+                    <p class="lletra_codi">L'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\U.webp">
+                    <p class="lletra_codi">U</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R'.webp">
+                    <p class="lletra_codi">R'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\U'.webp">
+                    <p class="lletra_codi">U'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\L.webp">
+                    <p class="lletra_codi">L</p>
+                </div>
+            </div>
+            <h3>QUARTO PASO: ORIENTACIÓN DE LAS ESQUINAS</h3>
+            <div class="objectiu">
+                <h4>OBJECTIVO</h4>
+                <img alt="Cubo 3x3x3 resuelto objetivo" src="C:\Users\Jeche123\Pictures\3x3\resolt.webp">
+            </div>
+            <br><br>
+            <p>Este es el último paso a realizar, tenemos que poner mucha atención ya que si nos perdemos tendremos que volver a empezar la resolución.</p>
+            <p>En este paso iremos orientando las esquinas que no están orientadas una a una, no te preocupes si parece que el cubo se deshace, si seguimos paso a paso las instrucciones el cubo acabará resuelto.</p>
+            <br>
+            <p>1. Para orientar las esquinas primero orientaremos correctamente el cubo, con el centro amarillo mirando hacia arriba i una de las esquinas a orientar en la parte superior derecha de la cara frontal.</p>
+            <p>2. Una vez tengamos el cubo orientado, nos fijaremos en el color de la cara frontal i durante todo el paso no dejaremos de mirar esta cara.</p>
+            <p>3. Realizamos el algoritmo 2 o 4 veces hasta que veamos que la esquina esté bien orientada. Aparentemente el cubo se ha deshecho, pero no te preocupes es normal.</p>
+            <p>4. Sin perder la cara frontal que hemos empezado mirando, movemos la capa superior para colocar en la parte superior derecha la siguiente esquina a oriental.</p>
+            <p>5. Volvemos a realizar el algoritmo 2 o 4 veces hasta que la esquina quede bien oriendada.</p>
+            <p>6. Si aún nos quedan esquinas a orientar repetimos los pasos 4 i 5.</p>
+            <div class="serie">
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D.webp">
+                    <p class="lletra_codi">D</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R'.webp">
+                    <p class="lletra_codi">R'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\D'.webp">
+                    <p class="lletra_codi">D'</p>
+                </div>
+                <div style="display:inline-block;">
+                    <img src="C:\Users\Jeche123\Pictures\3x3\R.webp">
+                    <p class="lletra_codi">R</p>
+                </div>
+            </div>
+            <br><br>
+            <p style="text-align:center;"><b>FELICIDADES, HAS RESUELTO EL CUBO DE RUBIK!!</b></p>
+            <div style="text-align:center;">
+                <div style="display:inline-block;">
+                    <img alt="Cubo 3x3x3 resuelto" src="C:\Users\Jeche123\Pictures\3x3\resolt.webp">
+                </div>
+            </div>
+        </div> 
+</div> 
+
+
+    </main>
+    
+    <footer>
+<div class="derechos">
+	<img src="C:\Users\Jeche123\Pictures\1.png">
+	<p>© 2024 CUBOGENIUS.Todos los derechos reservados.</p>
+         
+</div>	
+    </footer>
+</body>
+</html>
